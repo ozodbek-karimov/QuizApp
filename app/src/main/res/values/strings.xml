@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="SadIbnMuoz"> Vafot etganda Rahmonning arshi titratgan sahobiy kim edi ?</string>
+    <string name="AbuBakirSiqqdiq">Paygambarimiz (SAV) qaysi sahobalarning ortlarida turib namoz oqiganlar ?</string>
+    <string name="QuronSunnat">Paygambarimiz (SAV) bizlarga qoldirgan iki omonati nima edi ?</string>
+    <string name="AbuSalama">Makkadan Madinaga eng birinchi hijrat qilgan sahoba kim ?</string>
+    <string name="AhliBayt">Ahli bayt deb kimlarga aytiladi ?</string>
+    <string name="Hanzala">Shahid bo\'lganidan so\'ng uni farishtalar yuvgan sahoba kim edi ? </string>
+    <string name="KabiraSagira">Fosiq deb kimga aytiladi ?</string>
+    <string name="Qarzihasana">Qarzi hasana deb nimaga aytiladi ?</string>
+    <string name="amalisolih">Amali solih nima ?</string>
+    <string name="qubo">Paygambarimiz (SAV) ilk bino etgan birinchi masjid nomi ?</string>
+    <string name="fiqh">Fiqh nima degani ?</string>
+    <string name="tavof">Ka\'ba atrofida  7 marta aylanib, ibodat qilishga nima deyiladi ?</string>
+    <string name="arofot">Hazrati Odam va Hazrati Havvo yer yuzida birinchi uchrashgan joy qayer ?</string>
+    <string name="Umar">Islom tarihida birinchi tarovehni kim boshlab bergan ?</string>
+    <string name="jamoat">Jamoat bo\'lib o\'qilgan namozning, yolg\'iz o\'qilgan namozdan savobi necha barobar ? </string>
+    <string name="judi">Nuh pay\'g\'ambarning kemasi to\'xtagan tog\' nomi ?</string>
+    <string name="elchi">Islomda birinchi bo\'lib elchi bo\'lgan sahoba kim edi ?</string>
+</resources>

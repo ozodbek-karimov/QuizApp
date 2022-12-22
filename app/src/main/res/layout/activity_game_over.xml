@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imer"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <!-- Bo'sh joy.. -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <!-- To'gri javob.. -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="To'g'ri javoblar: "
+                android:textColor="#51BAEF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/trueAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="21"
+                android:textColor="#2DF10A"
+                android:textSize="35sp" />
+        </LinearLayout>
+
+
+        <!-- Noto'gri javob.. -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Eng yuqori ball: "
+                android:textColor="#51BAEF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bestAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="21"
+                android:textColor="#ff6000"
+                android:textSize="35sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Game over rasmi.. -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="0.3"
+        app:srcCompat="@drawable/game_over" />
+
+    <!-- Bo'sh joy -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- Qayta o'ynash.. -->
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/restart"
+            android:onClick="restart" />
+
+
+        <!-- Bo'sh joy.. -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+
+        <!-- Chiqish.. -->
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/exit"
+            android:onClick="exit" />
+    </LinearLayout>
+
+
+</LinearLayout>
