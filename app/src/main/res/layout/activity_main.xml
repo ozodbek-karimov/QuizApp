@@ -7,7 +7,7 @@
     android:background="@drawable/imer"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.sandipbhattacharya.quizApp.MainActivity">
+    tools:context=".MainActivity">
 
 
     <ImageView

@@ -1,4 +1,4 @@
-package com.sandipbhattacharya.quizApp;
+package pl.ozodbek.quizapp;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -9,8 +9,6 @@ import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
-import pl.ozodbek.quizapp.R;
 
 public class GameOver extends AppCompatActivity {
 

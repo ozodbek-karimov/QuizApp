@@ -1,4 +1,4 @@
-package com.sandipbhattacharya.quizApp;
+package pl.ozodbek.quizapp;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -8,7 +8,6 @@ import android.os.CountDownTimer;
 import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -18,8 +17,6 @@ import androidx.cardview.widget.CardView;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-
-import pl.ozodbek.quizapp.R;
 
 @SuppressWarnings("ALL")
 public class StartGame extends AppCompatActivity {

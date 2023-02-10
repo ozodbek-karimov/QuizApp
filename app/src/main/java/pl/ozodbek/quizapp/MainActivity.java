@@ -1,14 +1,10 @@
-package com.sandipbhattacharya.quizApp;
+package pl.ozodbek.quizapp;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.AnimationUtils;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import pl.ozodbek.quizapp.R;
 
 @SuppressWarnings("ALL")
 
